@@ -1,0 +1,111 @@
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.gameBoxP{
+	float: left;
+	margin: 0px;
+}
+
+.gameInput{
+	width: 20px;
+	text-align: center;
+}
+
+.errorBox{
+	background-color: red !important;
+}
+
+.correctBox{
+	background-color: #CCCCCC !important;
+}
+
+.gameHolder{
+	width: 40%;
+	height: 55px;
+	margin: 5%;
+	background-color: #CCCCCC;
+	text-align: center;
+}
+
+.boxHolder{
+	width: 120px;
+	height: 60px;
+	background-color: white;
+	margin: 10px;
+}
+
+.floatLeft{
+	float: left;
+}
+
+.floatRight{
+	float: right;
+}
+
+.center{
+	display: block;
+	width: 40%;
+	margin: auto;
+	margin-top: 5%;
+}
+
+#resultBox{
+	width: 120px;
+	height: 40px;
+	background-color: white;
+	margin: 10px;
+}
+
+#buttonBox{
+	width: 120px;
+	height: 40px;
+	background-color: white;
+	margin: 10px;
+}
+
+.marginTopBottom{
+	margin-top: 18px;
+	margin-bottom: 18px;
+}
+.marginAuto{
+	margin: auto;
+}
+
+.leftMarginGamebox{
+	margin-left: 22px; 
+}
+
+.leftMarginArrows{
+	margin-left: 7px;
+}
+
+#resultHolder{
+	margin-top: 20% !important;
+	height: 21px;
+	background-color: #CCCCCC;
+	text-align: center;
+}
+
+#errorTextOne{
+	display: none;
+	width: 150px;
+}
+
+#errorTextTwo{
+	display: none;
+	width: 150px;
+}
+
+#errorTextThree{
+	display: none;
+	width: 150px;
+}
+
+#errorTextFour{
+	display: none;
+	width: 150px;
+}
+

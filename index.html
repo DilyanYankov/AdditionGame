@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Addition Game</title>
+		<script type="text/javascript" src="libs/js/jquery-1.9.1.js"></script>
+		<script type="text/javascript" src="index.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" href="css/font-awesome-4.4.0/css/font-awesome.min.css">
+	</head>
+	<body>
+
+		<div>
+			<div class="boxHolder">
+				<div id="gameBoxOne" class="gameHolder floatLeft">
+					<p id="shownNumberOne" class="marginTopBottom gameBoxP"></p>
+					<div class="leftMarginGamebox controlHolder">
+						<span class="fa fa-caret-up leftMarginArrows upArrow"></span>
+						<input id="inputNumberOne" class="gameInput" type="number">
+						<span class="fa fa-caret-down leftMarginArrows"></span>
+					</div>				
+				</div>
+				<div id="gameBoxTwo" class="gameHolder floatLeft">
+					<p id="shownNumberTwo" class="marginTopBottom gameBoxP"></p>
+					<div class="leftMarginGamebox controlHolder">
+						<span class="fa fa-caret-up leftMarginArrows"></span>
+						<input id="inputNumberTwo" class="gameInput" type="number">
+						<span class="fa fa-caret-down leftMarginArrows"></span>
+					</div>					
+				</div>
+			</div>
+			<div id="resultBox">
+				<div id="resultHolder" class="center">
+					<p id="gameResult" class="center"></p>
+				</div>
+			</div>			
+			<div class="boxHolder">
+				<div id="gameBoxThree" class="gameHolder floatLeft">
+					<p id="shownNumberThree" class="marginTopBottom gameBoxP"></p>
+					<div class="leftMarginGamebox controlHolder">
+						<span class="fa fa-caret-up leftMarginArrows"></span>
+						<input id="inputNumberThree" class="gameInput" type="number">
+						<span class="fa fa-caret-down leftMarginArrows"></span>
+					</div>			
+				</div>
+				<div id="gameBoxFour" class="gameHolder floatLeft">
+					<p id="shownNumberFour" class="marginTopBottom gameBoxP"></p>
+					<div class="leftMarginGamebox controlHolder">
+						<span class="fa fa-caret-up leftMarginArrows"></span>
+						<input id="inputNumberFour" class="gameInput" type="number">
+						<span class="fa fa-caret-down leftMarginArrows"></span>
+					</div>					
+				</div>
+			</div>
+			<div id="buttonBox">
+				<button id="gameButton" class="center"> OK </button>
+			</div>
+			<div>
+				<p id="errorTextOne">First input box is out of range</p>
+				<p id="errorTextTwo">Second input box is out of range</p>
+				<p id="errorTextThree">Third input box is out of range</p>
+				<p id="errorTextFour">Fourth input box is out of range</p>
+			</div>			
+		</div>
+
+	</body>
+</html>
